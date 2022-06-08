@@ -1,0 +1,214 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body
+{
+    height: 100%;
+    background-color: #edeef0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.aside
+{
+    float: left;
+    height: 100%;
+    padding: 20px 0 0 32px;
+    width: 250px;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.aside_h1
+{
+    font-size: 40px;
+    color: #00a1ff;
+}
+
+.header
+{
+    margin-left: 250px;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #00a1ff;
+}
+
+.header_ul
+{
+    font-size: 40px;
+    text-align: center;
+    margin-left: 600px;
+    color: #FFFFFF;
+}
+
+.header_li
+{
+    cursor: pointer;
+    display: inline;
+    margin: 0 10px;
+}
+
+.header_li:hover
+{
+    color: gray;
+}
+
+.main
+{
+    
+    margin-left: 250px;
+}
+
+
+
+.footer
+{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    margin-left: 250px; 
+    display: flex;
+    padding: 20px;
+    background-color: #00a1ff;
+}
+
+.p
+{
+    color: #FFFFFF;
+}
+
+.logo
+{
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+}
+
+.ul
+{
+    padding: 6px 6px 6px 0;
+    display: block;
+    list-style: none;
+    font-size: 20px;
+    
+}
+
+.li
+{
+    cursor: pointer;
+    color: #00a1ff;
+}
+
+.li:hover
+{
+    color: grey;
+}
+
+
+
+.aside_button
+{
+    position: absolute;
+    left: 0;
+}
+
+.button
+{ 
+    
+    width: 100%;
+   
+    font-size: 19px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 5px;
+  background-color:#00a1ff;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+.button:hover
+{
+    color: grey;
+}
+
+.container-flex 
+{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    
+    justify-content: flex-start;
+    align-items: center;
+}
+  
+.music 
+{
+    padding-bottom: 30px;
+}
+
+.music img 
+{
+    background-color: #FFFFFF;
+    margin-left: 10px;
+    padding-left: 10px;
+    max-width: 170px;
+    border-radius: 10px;
+}
+
+.music p 
+{
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 10px;
+    text-align: center;
+    color: #00a1ff;
+}
+
+.music:hover p
+{
+    color: grey;
+}
+
+.title 
+{
+    padding-left: 20px;
+    padding-bottom: 30px;
+    font-size: 45px;
+    color: #00a1ff;
+}
+
+
+
+.aside_menu
+{
+    margin-bottom: 30px;
+}
+
+
+
+.link 
+{
+    cursor: pointer;
+    color: #FFFFFF;
+    margin: 0 10px;
+}
+
+.link:hover
+{
+    
+    color: grey;
+}

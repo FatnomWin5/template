@@ -2,36 +2,94 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="%PUBLIC_URL%/spotify.png" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
       content="Web site created using create-react-app"
     />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    
+  <title>Spotify Main Page</title>
   </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+  <body class="body">
+    <header class="header">
+        <ul class="header_ul">
+          <li class="header_li">&#9776;</li>
+          <li class="header_li">&#8249;</li>
+          <li class="header_li">&#9658;</li>
+          <li class="header_li">&#8250;</li>
+          <li class="header_li">&#9835;</li>
+        </ul>
+    </header>
+    <aside class="aside">
+      <div class="logo">
+        <img src="./spotify.png" alt="spotify_logo" width="64" height="64"/>
+        <h1 class="aside_h1" >Spotify</h1>
+      </div>
+      <div class="aside_menu">
+      <ul class="ul">
+        <li class="li">Главная</li>
+        <li class="li">Поиск</li>
+        <li class="li">Моя медиатека</li>
+        <li class="li">Создать плейлист</li>
+        <li class="li">Любимые треки</li>
+      </ul>
+    </div>
+      <div class="aside_button">
+    <a href="#"><button class="button">Зарегистрироваться</button></a>
+    <a href="#"><button class="button">Вход</button></a>
+  </div>  
+    </aside>
+    <main class="main">
+      <h1 class="title">Разная музыка</h1>
+      <div class="container-flex">
+        <div class="music">
+          <a href="#"><img src="music.png" alt=""></a>
+          <p>Music 1</p>
+        </div>
+        <div class="music">
+          <a href="#"><img src="music.png" alt=""></a>
+          <p>Music 2</p>
+        </div>
+        <div class="music">
+          <a href="#"><img src="music.png" alt=""></a>
+          <p>Music 3</p>
+        </div>
+        <div class="music">
+          <a href="#"><img src="music.png" alt=""></a>
+          <p>Music 4</p>
+        </div>
+        <div class="music">
+          <a href="#"><img src="music.png" alt=""></a>
+          <p>Music 5</p>
+        </div>
+        <div class="music">
+          <a href="#"><img src="music.png" alt=""></a>
+          <p>Music 6</p>
+        </div>
+        <div class="music">
+          <a href="#"><img src="music.png" alt=""></a>
+          <p>Music 7</p>
+        </div>
+        <div class="music">
+          <a href="#"><img src="music.png" alt=""></a>
+          <p>Music 8</p>
+        </div>
+        <div class="music">
+          <a href="#"><img src="music.png" alt=""></a>
+          <p>Music 9</p>
+        </div>
+        <div class="music">
+          <a href="#"><img src="music.png" alt=""></a>
+          <p>Music 10</p>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <p class="p">© Paklin inc. 2022</p>
+      <a class="link" href="https://github.com/FatnomWin5" >Github создателя</a>
+    </footer>
   </body>
 </html>
