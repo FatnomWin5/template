@@ -42,13 +42,30 @@
     background-color: #00a1ff;
 }
 
+.header_ul
+{
+    font-size: 40px;
+    text-align: center;
+    margin-left: 600px;
+    color: #FFFFFF;
+}
+
+.header_li
+{
+    cursor: pointer;
+    display: inline;
+    margin: 0 10px;
+}
+
+.header_li:hover
+{
+    color: gray;
+}
+
 .main
 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    color: #00a1ff;
+    
+    margin-left: 250px;
 }
 
 
@@ -85,7 +102,8 @@
     padding: 6px 6px 6px 0;
     display: block;
     list-style: none;
-    font-size: 18px;
+    font-size: 20px;
+    
 }
 
 .li
@@ -99,26 +117,98 @@
     color: grey;
 }
 
-.header_ul
+
+
+.aside_button
 {
-    padding: 6px 6px 6px 0;
-    display: block;
-    list-style: none;
-    font-size: 18px;
-    margin-right: 0;
-    margin-left: auto;
+    position: absolute;
+    left: 0;
 }
 
-.header_li
+.button
+{ 
+    
+    width: 100%;
+   
+    font-size: 19px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 5px;
+  background-color:#00a1ff;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+.button:hover
 {
-    display: inline;
-    margin-right: 5px;
-    padding: 3px;
+    color: grey;
+}
+
+.container-flex 
+{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    
+    justify-content: flex-start;
+    align-items: center;
+}
+  
+.music 
+{
+    padding-bottom: 30px;
+}
+
+.music img 
+{
+    background-color: #FFFFFF;
+    margin-left: 10px;
+    padding-left: 10px;
+    max-width: 170px;
+    border-radius: 10px;
+}
+
+.music p 
+{
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 10px;
+    text-align: center;
+    color: #00a1ff;
+}
+
+.music:hover p
+{
+    color: grey;
+}
+
+.title 
+{
+    padding-left: 20px;
+    padding-bottom: 30px;
+    font-size: 45px;
+    color: #00a1ff;
+}
+
+
+
+.aside_menu
+{
+    margin-bottom: 30px;
+}
+
+
+
+.link 
+{
     cursor: pointer;
     color: #FFFFFF;
+    margin: 0 10px;
 }
 
-.header_li:hover
+.link:hover
 {
+    
     color: grey;
 }
