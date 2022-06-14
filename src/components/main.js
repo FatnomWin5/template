@@ -32,8 +32,7 @@ function Main() {
   if (searchData.length === 0) {
     return (
       <main className="main">
-        
-        <div className="content-body">
+        <div className="main-body">
           {topArtists.map((item) => {
             return <TopCard key={item.name} data={item}></TopCard>;
           })}
@@ -42,9 +41,8 @@ function Main() {
     );
   } else {
     return (
-      <main className="main">
-        
-        <div className="content-body">
+      <main className="main">      
+        <div className="main-body">
           {searchData.map((item) => {
             return <Card key={item.url} data={item}></Card>;
           })}

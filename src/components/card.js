@@ -4,9 +4,9 @@ function Card({ data }) {
   return (
     <div className="card">
       <div className="music">
-        <img src="./music.png" className="music img" alt = "Изображение альбома" width="58" height="58" />
+        <img src="./music.png"  alt = "Изображение альбома"  />
         <div>
-          <p className="music p">
+          <p className="artist_name">
             {data.name}
           </p>
           <p className="song_artist_name">{data.artist}</p>

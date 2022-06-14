@@ -84,13 +84,27 @@
 
 .main
 {
-    
+    font-size: 20px;
+    display: flex;
+    overflow-x: hidden;
+    line-height: 30px;
+    flex-direction: column;
     margin-left: 250px;
-    margin-top: 100px;
+    margin-top: 74px;
+    margin-bottom: 60px;
+    background-color: #edeef0;
 }
 
 
-
+.content 
+{
+    display: flex;
+    background-color: #97A9B4;
+    overflow: scroll;
+    overflow-x: hidden;
+    line-height: 30px;
+    flex-direction: column;
+}
 
 
 .p
@@ -131,13 +145,12 @@
 {
     position: absolute;
     left: 0;
+    
 }
 
 .button
 { 
-    
     width: 100%;
-   
     font-size: 19px;
   border-radius: 15px;
   text-transform: uppercase;
@@ -146,6 +159,7 @@
   background-color:#00a1ff;
   color: #FFFFFF;
   border-color: #FFFFFF;
+  cursor: pointer;
 }
 
 .button:hover
@@ -158,9 +172,9 @@
     display: flex;
     flex-flow: row wrap;
     margin: 0 auto;
-    
     justify-content: flex-start;
     align-items: center;
+    left: 0;
 }
   
 .music 
@@ -171,32 +185,28 @@
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: center;
+    left: 0;
 }
 
 .music img 
 {
-    /*background-color: #FFFFFF;*/
-    background: #FFFFFF;
+    position: relative;
+    display: flex;
+    background: local;
     border: none;
-    /*margin-left: 10px;
-    padding-left: 10px;
-    max-width: 170px;
-    border-radius: 10px;*/
+    width: 100px;
+    height: 100px;
+    left: 0;
 }
 
 .music p 
 {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     padding-top: 10px;
-    text-align: center;
+    text-align: left;
     color: #00a1ff;
     margin: 0 10px;
-}
-
-.music:hover p
-{
-    color: grey;
 }
 
 .title 
@@ -243,8 +253,10 @@
 
 .name
 {
+    font-size: 20px;
     text-align: left;
     padding: 15px;
+    margin: 0 10px;
 }
 
 .artist_data 
@@ -255,6 +267,7 @@
 
 .picture 
 {
+    
     background: #1c1c1c00;
     border: none;
 }
@@ -272,9 +285,11 @@
 
 .playlist-name 
 {
-    color: #fff;
+    font-size: 20px;
+    color: #00a1ff;
     text-align: left;
     padding-left: 7px;
+    margin: 0 10px;
 }
 
 .number 
@@ -285,18 +300,19 @@
 .artist_name 
 {
     font-size: 20px;
-    color: #fff;
+    color: #00a1ff;
     font-family: 'spotify-circular-cyrillic', Helvetica, Arial, sans-serif;
     display: flex;
     align-items: center;
     margin-left: 10px;
+    margin: 0 10px;
 }
 
 .card 
 {
     display: flex;
     padding: 10px;
-    /*background-color: #343434;*/
+    background-color: #FFFFFF;
     border-radius: 5px;
     position: relative;
     margin-left: 15px;
@@ -306,14 +322,16 @@
 
 .song_artist_name 
 {
-    font-size: 14px;
+    font-size: 20px;
     color: #808080;
     margin-left: 10px;
     font-family: 'spotify-circular-cyrillic', Helvetica, Arial, sans-serif;
+    margin: 0 10px;
 }
 
 .data_search 
 {
+    
     align-items: center;
 }
 
@@ -323,12 +341,3 @@
     font-size: 16px;
 }
 
-.content 
-{
-    display: flex;
-    background-color: #97A9B4;
-    overflow: scroll;
-    overflow-x: hidden;
-    line-height: 30px;
-    flex-direction: column;
-}

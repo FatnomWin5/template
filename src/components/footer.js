@@ -2,11 +2,7 @@ import React from "react";
 import { HeaderContext } from "../context";
 import { useContext } from "react";
 
-function Footer() {
-  
-
-
-  
+function Footer() {  
   return (
     <footer className="footer">
       <p className="p">© Paklin inc. 2022</p>
