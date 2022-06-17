@@ -96,7 +96,7 @@
 }
 
 
-.content 
+/*.content 
 {
     display: flex;
     background-color: #97A9B4;
@@ -104,13 +104,10 @@
     overflow-x: hidden;
     line-height: 30px;
     flex-direction: column;
-}
+}*/
 
 
-.p
-{
-    color: #FFFFFF;
-}
+
 
 .logo
 {
@@ -188,7 +185,7 @@
     left: 0;
 }
 
-.music img 
+.img 
 {
     position: relative;
     display: flex;
@@ -199,7 +196,7 @@
     left: 0;
 }
 
-.music p 
+.p 
 {
     font-size: 20px;
     font-weight: bold;
@@ -263,13 +260,6 @@
 {
     display: flex;
     width: auto;
-}
-
-.picture 
-{
-    
-    background: #1c1c1c00;
-    border: none;
 }
 
 .data_container 

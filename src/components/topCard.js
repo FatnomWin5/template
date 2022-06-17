@@ -2,7 +2,7 @@ function TopCard({ data }) {
     return (
       <div className="card">
         <div className="music">
-          <img src="./music.png"  alt = "Изображение альбома"  />
+          <img src="./music.png"  className="img" alt = "Изображение альбома"  />
           <div className="artist_name">{data.name}</div>
           <div className="data_container">
             <div className="data">

@@ -4,7 +4,7 @@ function Card({ data }) {
   return (
     <div className="card">
       <div className="music">
-        <img src="./music.png"  alt = "Изображение альбома"  />
+        <img src="./music.png"  className="img" alt = "Изображение альбома"  />
         <div>
           <p className="artist_name">
             {data.name}
