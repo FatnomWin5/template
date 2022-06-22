@@ -7,15 +7,12 @@ function Header() {
   const { setSearchData } = useContext(HeaderContext);
   const ERR = 'Данные по запросу не найдены';
 
-
   function getResult(value) {
-    if (value !== "") {
       getApiData(
         `https://ws.audioscrobbler.com/2.0/?method=track.search&limit=100&track=${value}&api_key=ffabe702da033934777f5163ba7e8db3&format=json`
       ).then((data) => {
           return setSearchData(data.results.trackmatches.track);
       });
-    } else setSearchData([]);
   }
   return (
     <header className="header">
