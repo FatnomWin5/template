@@ -1,0 +1,333 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body
+{
+    height: 100%;
+    background-color: #edeef0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.aside
+{
+    float: left;
+    height: 100%;
+    padding: 20px 0 0 32px;
+    width: 250px;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.aside_h1
+{
+    font-size: 40px;
+    color: #00a1ff;
+}
+
+.header
+{
+    width: 87%;
+    margin-left: 250px;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #00a1ff;
+    position: fixed;
+    z-index: 2;
+    overflow: hidden;
+    top: 0;
+}
+
+.footer
+{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    margin-left: 250px; 
+    display: flex;
+    padding: 20px;
+    background-color: #00a1ff;
+}
+
+.header_ul
+{
+    font-size: 40px;
+    text-align: center;
+    margin-left: 600px;
+    color: #FFFFFF;
+}
+
+.header_li
+{
+    cursor: pointer;
+    display: inline;
+    margin: 0 10px;
+}
+
+.header_li:hover
+{
+    color: gray;
+}
+
+.main
+{
+    font-size: 20px;
+    display: flex;
+    overflow-x: hidden;
+    line-height: 30px;
+    flex-direction: column;
+    margin-left: 250px;
+    margin-top: 74px;
+    margin-bottom: 60px;
+    background-color: #edeef0;
+}
+
+
+/*.content 
+{
+    display: flex;
+    background-color: #97A9B4;
+    overflow: scroll;
+    overflow-x: hidden;
+    line-height: 30px;
+    flex-direction: column;
+}*/
+
+
+
+
+.logo
+{
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+}
+
+.ul
+{
+    padding: 6px 6px 6px 0;
+    display: block;
+    list-style: none;
+    font-size: 20px;
+    
+}
+
+.li
+{
+    cursor: pointer;
+    color: #00a1ff;
+}
+
+.li:hover
+{
+    color: grey;
+}
+
+
+
+.aside_button
+{
+    position: absolute;
+    left: 0;
+    
+}
+
+.button
+{ 
+    width: 100%;
+    font-size: 19px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 5px;
+  background-color:#00a1ff;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+  cursor: pointer;
+}
+
+.button:hover
+{
+    color: grey;
+}
+
+.container-flex 
+{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    justify-content: flex-start;
+    align-items: center;
+    left: 0;
+}
+  
+.music 
+{
+    padding-bottom: 30px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    left: 0;
+}
+
+.img 
+{
+    position: relative;
+    display: flex;
+    background: local;
+    border: none;
+    width: 100px;
+    height: 100px;
+    left: 0;
+}
+
+.p 
+{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    text-align: left;
+    color: #00a1ff;
+    margin: 0 10px;
+}
+
+.title 
+{
+    padding-left: 20px;
+    padding-bottom: 30px;
+    font-size: 45px;
+    color: #00a1ff;
+}
+
+
+
+.aside_menu
+{
+    margin-bottom: 30px;
+}
+
+
+
+.link 
+{
+    cursor: pointer;
+    color: #FFFFFF;
+    margin: 0 10px;
+}
+
+.link:hover
+{
+    
+    color: grey;
+}
+
+.header__search
+{
+    
+    margin-left: auto;
+}
+
+@font-face 
+{
+    font-family: 'spotify-circular-cyrillic';
+    src: url(https://open.scdn.co/cdn/fonts/CircularSpUICyrOnly-Book.6a858994.woff2);
+}
+
+.name
+{
+    font-size: 20px;
+    text-align: left;
+    padding: 15px;
+    margin: 0 10px;
+}
+
+.artist_data 
+{
+    display: flex;
+    width: auto;
+}
+
+.data_container 
+{
+    margin-right: 0px;
+    margin-left: auto;
+}
+
+.data 
+{
+    display: flex;
+}
+
+.playlist-name 
+{
+    font-size: 20px;
+    color: #00a1ff;
+    text-align: left;
+    padding-left: 7px;
+    margin: 0 10px;
+}
+
+.number 
+{
+    color: #4bdf80;
+}
+
+.artist_name 
+{
+    font-size: 20px;
+    color: #00a1ff;
+    font-family: 'spotify-circular-cyrillic', Helvetica, Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin: 0 10px;
+}
+
+.card 
+{
+    display: flex;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    position: relative;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.song_artist_name 
+{
+    font-size: 20px;
+    color: #808080;
+    margin-left: 10px;
+    font-family: 'spotify-circular-cyrillic', Helvetica, Arial, sans-serif;
+    margin: 0 10px;
+}
+
+.data_search 
+{
+    
+    align-items: center;
+}
+
+.value 
+{
+    color: #4bdf80;
+    font-size: 16px;
+}
+
